@@ -1,5 +1,5 @@
 # Sparcle for spot reassignments in transcriptomic images
-This is the code base for Sparcle: Spatial reassignment of spots to cells via profile likelihood estimation in transcriptomic images
+This is the code base for Sparcle: Spatial reassignment of spots to cells via maximum likelihood estimation in transcriptomic images
 * Datasets used:
   * MERFISH data can be found here: http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=30385464
   [Moffitt, J. R. Bambah-Mukku, D., Eichhorn, S. W., Vaughn, E., Shekhar, K., Perez, J. D. & Zhuang, X. Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region. Science 2018.]
