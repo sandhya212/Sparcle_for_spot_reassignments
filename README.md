@@ -16,3 +16,22 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
 
   * Allen data: smFISH and matching scRNA-seq data of the primary visual cortex (VISp) region of an adult mouse brain can be found here: https://portal.brain-map.org/atlases-and-data/rnaseq#Mouse_Cortex_and_Hip. There are 3500 cells and 22 genes. 
 
+## Installation
+
+1. Download this code repository or Open Terminal and use `git clone`
+
+ `$ git clone https://github.com/sandhya212/Sparcle_for_spot_reassignments`
+
+2. The folder ‘Code_HPC’ contains the Python code implementing SPARCLE
+
+* Sparcle_submit.sh: Shell script to submit code to the cluster
+* start_file.py: Set current working directory and path variables for data here
+* init_file.py: Initialise the variables for Sparcle here
+* Sparcle.py: This file is Sparcle’s engine that iterates over FoVs recovering dangling mRNAs while parallel processing across FoVs per iteration
+
+3. Submit code using: 
+
+`
+bsub -W 2:00 -R 'rusage[mem=25]' < Sparcle_submit.sh -o sparcle_out_file
+`
+4. For general reference, 'Code_HPC' equivalent is provided as a Python notebook and Python code in Sparcle_ver_1.ipynb and Sparcle_ver_1.py, respectively.
