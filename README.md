@@ -10,11 +10,35 @@ Here, we present Sparcle, a probabilistic model that reassigns transcripts to ce
 ### Conclusions
 Sparcle improves transcript assignment, providing more realistic per-cell quantification of each gene, better delineation of cell boundaries, and improved cluster assignments. Critically, our approach does not require an accurate segmentation and is agnostic to technological platform.
 
-## Datasets used
-  * MERFISH data can be found here: http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=30385464
+## Datasets used 
+
+1. MERFISH 
+  - Merfish barcode and genes and paired scRNAseq data were obtained from here: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113576
+  - FoVs were obtained from the authors (Moffitt et al) directly
+  - dd.ipynb is the Sparcle code (parallelised) to handle the Merfish FoVs
+  - http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=30385464
   [Moffitt, J. R. Bambah-Mukku, D., Eichhorn, S. W., Vaughn, E., Shekhar, K., Perez, J. D. & Zhuang, X. Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region. Science 2018.]
 
-  * Allen data: smFISH and matching scRNA-seq data of the primary visual cortex (VISp) region of an adult mouse brain can be found here: https://portal.brain-map.org/atlases-and-data/rnaseq#Mouse_Cortex_and_Hip. There are 3500 cells and 22 genes. 
+
+2. Allen smFISH VISp: 
+ - https://zenodo.org/record/3478502#.YGSMi68zZ3g. 
+ - Link courtesy from SSAM (J Park, W Choi, S Tiesmeyer, B Long, LE Borm, E Garren, TN Nguyen, S Codeluppi, M Schlesner, B Tasic, R Eils, N Ishaque. "Segmentation-free inference of cell types from in situ transcriptomics data." bioRxiv 800748. doi: https://doi.org/10.1101/800748)
+
+3. STARmap: 
+ - In this example we used the count matrix and tables for “visual_160/20171120_BF4_light" downloaded from: https://www.dropbox.com/sh/f7ebheru1lbz91s/AADiIArV5LmqzxdLvxo9qHXFa/visual_160/20171120_BF4_light?dl=0&subfolder_nav_tracking=1
+ - Single-cell RNAseq data is from: Tasic B, et al. (2016) Adult mouse cortical cell taxonomy revealed by single cell transcriptomics.
+(Nat Neurosci, 40, 335-346. DOI doi:10.1038/nn.4216) https://github.com/AllenInstitute/tasic2016data
+ - Refer to xx.ipynb for how we process the data and run it through Sparcle. 
+
+4. pciSeq: 
+ - Data and visualisation code: https://colab.research.google.com/github/acycliq/pciSeq/blob/master/notebooks/pciSeq.ipynb
+ - Refer to xx.ipynb for how we process the data and run it through Sparcle
+
+5. Vizgen FoV 75: 
+ - We have used data from the recent ‘Vizgen Data release program’: https://info.vizgen.com/mouse-brain-data?utm_campaign=Data%20Release%20Program&utm_medium=email&_hsmi=125521312&_hsenc=p2ANqtz-_2jSArOjMVrw1OG1OC_o7XyhAuKxIq8oQ1d8NkKM8Cxn97U6P8rthj9kYCWVZ3JnGjMnuyXOvve7h42soJBmfnWEhrQxgJ3WOmhZ5W5E97l1JNki8&utm_content=125521312&utm_source=hs_email. 
+- We have modified code provided in the corresponding Google colab to view the data for FoV 75
+
+6. Code to extract the dangling mRNA for smFISH, STARmap, ISS and Vizgen are developed in-house and will be made available upon request.
 
 ## Installation
 
