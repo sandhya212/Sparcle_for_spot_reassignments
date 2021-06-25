@@ -8,6 +8,8 @@
 # ##### Code author - Sandhya Prabhakaran
 # #### 
 
+### Download the Merfish barcode and genes and paired scRNAseq data from here: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113576
+### Move these files to where this github repository is located on your local machine 
 # In[ ]:
 
 
@@ -74,9 +76,9 @@ import tifffile
 ############
 
 
-path_data = '/Users/Downloads/Jeff_MERFISH_data' 
+path_data = os.getcwd() 
 path_t = os.getcwd() 
-path_t = '/Users/Downloads/Jeff_MERFISH_data/current'
+#path_t = '/Users/Downloads/Jeff_MERFISH_data/current'
 path_python = path_t
 
 path_scseq = os.path.join(path_data + '/GSE113576_matrix.mtx')
@@ -88,9 +90,6 @@ brian_csv_path = os.path.join(path_data+'/smFISH_MCT_CZI_Panel_0_spot_table.csv'
 
 #read in the cluster ids
 path_sc_cellid = os.path.join(path_data + '/aau5324_Moffitt_Table-S1.xlsx')
-
-#read in Allen data .csvs
-path_Allen_data = '/home/Merfish_model/Merfish/Jeff_MERFISH_data/Allen_data'
 
 fov_count = 'current_run/'
 
