@@ -15,7 +15,7 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
 1. MERFISH 
   - Merfish barcode and genes and paired scRNAseq data were obtained from here: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113576
   - FoVs were obtained from the authors (Moffitt et al) directly
-  - dd.ipynb is the Sparcle code (parallelised) to handle the Merfish FoVs
+  - Sparcle_ver_1.ipynb (or Sparcle_ver_1.py) is the parallelised Sparcle code to handle the Merfish FoVs
   - http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=30385464
   [Moffitt, J. R. Bambah-Mukku, D., Eichhorn, S. W., Vaughn, E., Shekhar, K., Perez, J. D. & Zhuang, X. Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region. Science 2018.]
 
