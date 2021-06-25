@@ -30,7 +30,7 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
 (Nat Neurosci, 40, 335-346. DOI doi:10.1038/nn.4216) https://github.com/AllenInstitute/tasic2016data
  - Refer to xx.ipynb for how we process the data and run it through Sparcle. 
 
-4. pciSeq: 
+4. pciSeq/ISS: 
  - Data and visualisation code: https://colab.research.google.com/github/acycliq/pciSeq/blob/master/notebooks/pciSeq.ipynb
  - Refer to xx.ipynb for how we process the data and run it through Sparcle
 
