@@ -28,7 +28,7 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
  - In this example we used the count matrix and tables for “visual_160/20171120_BF4_light" downloaded from: https://www.dropbox.com/sh/f7ebheru1lbz91s/AADiIArV5LmqzxdLvxo9qHXFa/visual_160/20171120_BF4_light?dl=0&subfolder_nav_tracking=1
  - Single-cell RNAseq data is from: Tasic B, et al. (2016) Adult mouse cortical cell taxonomy revealed by single cell transcriptomics.
 (Nat Neurosci, 40, 335-346. DOI doi:10.1038/nn.4216) https://github.com/AllenInstitute/tasic2016data
- - Refer to STARmap folder for how we process the data and run it through Sparcle. 
+ - Refer the STARmap folder for how we process the data and run it through Sparcle. 
 
 4. pciSeq/ISS: 
  - Data and visualisation code: https://colab.research.google.com/github/acycliq/pciSeq/blob/master/notebooks/pciSeq.ipynb
