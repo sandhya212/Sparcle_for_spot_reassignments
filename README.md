@@ -38,7 +38,7 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
  - We have used data from the recent ‘Vizgen Data release program’: https://info.vizgen.com/mouse-brain-data?utm_campaign=Data%20Release%20Program&utm_medium=email&_hsmi=125521312&_hsenc=p2ANqtz-_2jSArOjMVrw1OG1OC_o7XyhAuKxIq8oQ1d8NkKM8Cxn97U6P8rthj9kYCWVZ3JnGjMnuyXOvve7h42soJBmfnWEhrQxgJ3WOmhZ5W5E97l1JNki8&utm_content=125521312&utm_source=hs_email. 
 - We have modified code provided in the corresponding Google colab to view the data for FoV 75
 
-6. Code to extract the dangling mRNA for smFISH, STARmap, ISS and Vizgen are developed in-house and will be made available upon request.
+6. Code to extract the dangling mRNA for smFISH, STARmap, ISS and Vizgen will be made available upon request.
 
 ## Installation
 
