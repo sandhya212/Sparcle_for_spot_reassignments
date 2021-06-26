@@ -60,4 +60,5 @@ bsub -W 2:00 -R 'rusage[mem=25]' < Sparcle_submit.sh -o sparcle_out_file
 `
 
 4. For general reference, 'Code_HPC' equivalent is provided as a Python notebook and Python code in Sparcle_ver_1.ipynb and Sparcle_ver_1.py, respectively.
-5. For other examples of Sparcle, standalone folders for STARmap and pciSeq_ISS are provided.
+
+5. For other examples of Sparcle, standalone folders with data and code for STARmap and pciSeq_ISS are provided.
