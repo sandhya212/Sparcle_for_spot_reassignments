@@ -32,7 +32,7 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
 
 4. pciSeq/ISS: 
  - Data and visualisation code: https://colab.research.google.com/github/acycliq/pciSeq/blob/master/notebooks/pciSeq.ipynb
- - Refer to xx.ipynb for how we process the data and run it through Sparcle
+ - Refer the pciSeq_ISS folder for how we process the data and run it through Sparcle
 
 5. Vizgen FoV 75: 
  - We have used data from the recent ‘Vizgen Data release program’: https://info.vizgen.com/mouse-brain-data?utm_campaign=Data%20Release%20Program&utm_medium=email&_hsmi=125521312&_hsenc=p2ANqtz-_2jSArOjMVrw1OG1OC_o7XyhAuKxIq8oQ1d8NkKM8Cxn97U6P8rthj9kYCWVZ3JnGjMnuyXOvve7h42soJBmfnWEhrQxgJ3WOmhZ5W5E97l1JNki8&utm_content=125521312&utm_source=hs_email. 
