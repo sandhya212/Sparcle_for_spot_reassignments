@@ -32,6 +32,7 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
 
 4. pciSeq/ISS: 
  - Data and visualisation code: https://colab.research.google.com/github/acycliq/pciSeq/blob/master/notebooks/pciSeq.ipynb
+ - Slice used: CA1DapiBoundaries_4-3_right.tif from https://figshare.com/s/88a0fc8157aca0c6f0e8?file=13160426
  - Refer the pciSeq_ISS folder for how we process the data and run it through Sparcle
 
 5. Vizgen FoV 75: 
