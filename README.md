@@ -27,8 +27,7 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
 3. STARmap: 
  - In this example we used the count matrix and tables for “visual_160/20171120_BF4_light" downloaded from: https://www.dropbox.com/sh/f7ebheru1lbz91s/AADiIArV5LmqzxdLvxo9qHXFa/visual_160/20171120_BF4_light?dl=0&subfolder_nav_tracking=1
  - Single-cell RNAseq data is from: Tasic B, et al. (2016) Adult mouse cortical cell taxonomy revealed by single cell transcriptomics.
-(Nat Neurosci, 40, 335-346. DOI doi:10.1038/nn.4216) https://github.com/AllenInstitute/tasic2016data
- - Refer the STARmap folder for how we process the data and run it through Sparcle. 
+(Nat Neurosci, 40, 335-346. DOI doi:10.1038/nn.4216) https://github.com/AllenInstitute/tasic2016data 
 
 4. pciSeq/ISS: 
  - Data and visualisation code: https://colab.research.google.com/github/acycliq/pciSeq/blob/master/notebooks/pciSeq.ipynb
@@ -62,4 +61,4 @@ bsub -W 2:00 -R 'rusage[mem=25]' < Sparcle_submit.sh -o sparcle_out_file
 
 4. For general reference, 'Code_HPC' equivalent is provided as a Python notebook and Python code in Sparcle_ver_1.ipynb and Sparcle_ver_1.py, respectively.
 
-5. For other examples of Sparcle, standalone folders with data and code for STARmap and pciSeq_ISS are provided.
+5. For another example of Sparcle, a standalone folder with data and code for pciSeq_ISS are provided.
