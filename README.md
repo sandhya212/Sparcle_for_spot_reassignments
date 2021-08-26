@@ -12,7 +12,7 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
 
 
 ## Graphical abstract
-<img src=/figures/GUI_Mistic.png width="80%"></img>
+<img src=/figures/sparcle_flowchart.png width="80%"></img>
 ## Datasets used 
 
 1. MERFISH 
