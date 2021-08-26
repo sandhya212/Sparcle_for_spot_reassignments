@@ -12,7 +12,8 @@ Sparcle improves transcript assignment, providing more realistic per-cell quanti
 
 
 ## Graphical abstract
-<img src=/figures/sparcle_flowchart.png width="80%"></img>
+<img src=/figures/sparcle_flowchart.png width="60%"></img>
+Sparcle iteratively recovers dangling mRNA transcripts. a. A Merfish exemplar FoV showing DAPI channel with cell segments (red lines) and transcripts (points). b. A zoomed-in section showing neuronal and non neuronal cells with dangling mRNAs. The neuron at the center shows partial cell segmentation of the nucleus (dark brown region) which contains 4 mRNA transcripts (in pink and green) accounting for 2 genes. The dangling mRNAs present outside the cell segment are completely ignored by current computational downstream approaches. Dotted lines between dangling mRNAs and cells denote potential mRNA to cell assignments. c. A further zoomed-in section shows nuclear mRNA as dots as dangling mRNA as crosses. Colors represent one of the 140 genes. Also shown is a mockcell (blue circle) centered at a dangling mRNA (pink cross). d. A count matrix of genes x cells is created using cell segments from all FoVs. This is clustered to give a set of cell types along with cluster moments. e. Sparcle builds a weighted mockcell for each dangling mRNA and assigns the mockcell to the nearest cell sharing the same cluster as that of the mockcell, using MLE. f. The count matrix is updated for cells and relevant genes based on the newly-assigned dangling mRNAs, the count matrix is re-clustered and this process iterates for a fixed number of iterations. 
 ## Datasets used 
 
 1. MERFISH 
