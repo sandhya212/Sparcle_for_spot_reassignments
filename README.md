@@ -10,6 +10,9 @@ Here, we present Sparcle, a probabilistic model that reassigns transcripts to ce
 ### Conclusions
 Sparcle improves transcript assignment, providing more realistic per-cell quantification of each gene, better delineation of cell boundaries, and improved cluster assignments. Critically, our approach does not require an accurate segmentation and is agnostic to technological platform.
 
+
+## Graphical abstract
+<img src=/figures/GUI_Mistic.png width="80%"></img>
 ## Datasets used 
 
 1. MERFISH 
