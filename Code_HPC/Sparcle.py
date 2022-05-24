@@ -24,7 +24,7 @@
 t1 = time.time()
 
 path_temp = os.path.join(path_data + '/barcode_metadata.csv')
-mRNA_metadata_t = np.array(pd.read_csv(path_temp).as_matrix())
+mRNA_metadata_t = np.array(pd.read_csv(path_temp).values)
 
 Merfish_CM_list = []
 mRNA_assign_list = []
@@ -77,7 +77,7 @@ def processFOV(f):
     
     path_temp = os.path.join(path_data + f_name)
     
-    cell_metadata_t = np.array(pd.read_csv(path_temp).as_matrix()) #.astype("float")
+    cell_metadata_t = np.array(pd.read_csv(path_temp).values) #.astype("float")
     #cell_metadata_t_list.append(cell_metadata_t)
     
     num_cells = cell_metadata_t.shape[0]
