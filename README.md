@@ -1,5 +1,6 @@
 # Sparcle for spot reassignments in transcriptomic images
 This is the code base for Sparcle: Spatial reassignment of spots to cells via maximum likelihood estimation in transcriptomic images.
+Sparcle is available at [Bioinformatics Advances (2022)](https://doi.org/10.1093/bioadv/vbac048).
 
 ## Abstract
 
